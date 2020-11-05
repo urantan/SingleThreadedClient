@@ -66,11 +66,8 @@ public class SingleThreadedClientTest {
                       ToPrint +=  arrayList.get(i);
                    }
                     }
+                    UserInterface.display(ToPrint);
                   }
-             UserInterface.display(ToPrint);
         }
-       
-        
-        
     }
 }

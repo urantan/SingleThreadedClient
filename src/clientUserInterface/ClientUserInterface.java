@@ -37,6 +37,6 @@ public class ClientUserInterface {
     }
     
     public void display(String theResult) {
-        System.out.print(theResult);
+        System.out.println(theResult);
     }
 }
